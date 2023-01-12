@@ -9,7 +9,10 @@ public class ArrayListDemo {
 		arrayList.add("Dahare");
 		arrayList.add("pune");
 		
-		System.out.println(arrayList);
+		//System.out.println(arrayList);
+		for(Object o:arrayList) {
+			System.out.println(o);
+		}
 	}
 
 }
